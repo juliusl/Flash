@@ -9,7 +9,7 @@ az group create -l $location -n $resourceGroup
 templateUri="https://raw.githubusercontent.com/juliusl/Flash/master/new-vm.json"
 
 # deploy, specifying all template parameters directly
-az group deployment create \
+az deployment group create \
     --name TestDeployment \
     --resource-group $resourceGroup \
     --template-uri $templateUri
