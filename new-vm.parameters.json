@@ -9,7 +9,7 @@
         "value": "rdpVM"
       },
       "adminUsername": {
-        "value": "azureUser"
+        "value": "flash-admin"
       },
       "adminPassword": {
         "value": "GEN-PASSWORD"
